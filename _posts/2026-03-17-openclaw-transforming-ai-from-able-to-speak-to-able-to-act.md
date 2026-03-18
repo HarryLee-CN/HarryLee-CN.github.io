@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw: Transforming AI from 'Able to Speak' to 'Able to Act'"
-date: 2026-03-18 16:00:00 +0800
+date: 2026-03-17 16:00:00 +0800
 categories: [AI, Tools]
 tags: [openclaw, ai-agent, automation, open-source]
 description: "A practical, no-nonsense look at OpenClaw: what it is, what it can do, who it’s for, and where it still falls short."

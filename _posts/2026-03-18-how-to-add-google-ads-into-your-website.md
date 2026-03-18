@@ -1,6 +1,6 @@
 ---
 title: How to Add Google Ads to Your Website
-date: 2026-03-19 12:00:00 +0800
+date: 2026-03-18 12:00:00 +0800
 categories: [Monetization, Blogging]
 tags: [google ads, google adsense, website monetization, seo, jekyll, chirpy]
 description: A step-by-step guide to adding Google Ads to your website, including AdSense setup, ads.txt, Chirpy and Jekyll integration, and tips to increase revenue.

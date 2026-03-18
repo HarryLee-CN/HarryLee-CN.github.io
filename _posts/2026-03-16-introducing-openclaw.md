@@ -1,6 +1,6 @@
 ---
 title: "What Is OpenClaw? A Complete Guide to This Open-Source AI Agent (2026)"
-date: 2026-03-17 16:00:00 +0800
+date: 2026-03-16 16:00:00 +0800
 categories: [AI, Tools]
 tags: [openclaw, ai-agent, automation, open-source]
 description: "What is OpenClaw? A clear, practical guide to this open-source AI agent, what it can do, who it’s for, and how it differs from ChatGPT."
