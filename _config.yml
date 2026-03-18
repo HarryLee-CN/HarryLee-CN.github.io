@@ -206,6 +206,11 @@ compress_html:
   ignore:
     envs: [development]
 
+#
+# Keep ads.txt in the site output so it is reachable at /ads.txt for AdSense.
+# Do NOT override `_includes/head.html` just to add AdSense, because that replaces
+# Chirpy's original head include and can break the site's CSS/JS.
+# For custom code inside <head>, use `_includes/metadata-hook.html` instead.
 include:
   - ads.txt
 
