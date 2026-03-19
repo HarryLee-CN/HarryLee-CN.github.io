@@ -1,14 +1,44 @@
 ---
-title: Javascript Basic Job Interview Q&A
+title: Top 25 JavaScript Interview Questions and Answers (2026 Guide)
 date: 2026-03-19 14:00:00 +0800
 categories: [Frontend, JavaScript, Interview]
 tags: [javascript, interview, frontend, js-basics, coding]
-description: A comprehensive collection of JavaScript basic interview questions and answers, covering core concepts such as closures, prototypes, async mechanisms, event loop, and more.
+description: Top 25 JavaScript interview questions and answers for 2026. Covers closures, prototype chain, async/await, event loop, and must-know frontend concepts.
 ---
 
-# Javascript Basic Job Interview Q&A
+# Top 25 JavaScript Interview Questions and Answers (2026 Guide)
 
-This article summarizes common **JavaScript interview questions**, covering fundamentals, advanced concepts, and practical coding scenarios.
+This article provides a comprehensive collection of **JavaScript interview questions and answers**, covering core fundamentals, advanced concepts, and real-world coding scenarios to help you prepare for frontend interviews.
+
+---
+
+## Table of Contents
+
+1. var vs let vs const  
+2. Closures  
+3. Prototype Chain  
+4. undefined vs null  
+5. == vs ===  
+6. Hoisting  
+7. Arrow Functions  
+8. this  
+9. new keyword  
+10. Promise  
+11. async / await  
+12. Event Loop  
+13. Event Delegation  
+14. Deep vs Shallow Copy  
+15. Debounce & Throttle  
+16. Currying  
+17. Memory Leak  
+18. Performance Optimization  
+19. call / apply / bind  
+20. for...in vs for...of  
+21. Destructuring  
+22. Array Methods  
+23. Flatten Array  
+24. Remove Duplicates  
+25. Summary
 
 ---
 
@@ -68,6 +98,12 @@ console.log(counter()); // 3
 ```
 
 In this example, `count` is not destroyed after `createCounter()` runs, because the returned function still references it.
+
+### Follow-up questions
+
+- What are real-world use cases of closures?
+- Can closures cause memory leaks?
+- How would you implement private variables using closures?
 
 ### Common pitfall
 
@@ -397,6 +433,12 @@ timeout
 ```
 
 Because microtasks are executed before the next macrotask.
+
+### Follow-up questions
+
+- What is the difference between microtasks and macrotasks?
+- Why does Promise run before setTimeout?
+- What is queueMicrotask?
 
 ---
 
