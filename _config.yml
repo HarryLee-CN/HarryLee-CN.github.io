@@ -57,7 +57,7 @@ webmaster_verifications:
 # 网站统计配置
 analytics:
   google:
-    id: # 填写对应统计工具 ID
+    id: G-B0XNR2TSRZ
   goatcounter:
     id: # 填写对应统计工具 ID
   umami:
