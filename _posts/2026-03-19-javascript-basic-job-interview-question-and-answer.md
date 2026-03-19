@@ -778,3 +778,5 @@ This article covers common JavaScript interview topics, including:
 - practical coding questions about arrays and objects
 
 If you can clearly explain these topics and write the related code confidently, you will be well prepared for most JavaScript and frontend interviews.
+
+## 💬 Have thoughts? Leave a comment below!
