@@ -3,7 +3,7 @@ title: AI Code Review with Cursor - How I Reduced Review Time from 45 Minutes to
 date: 2026-03-20 18:00:00 +0800
 categories: [AI, Engineering, Code Review]
 tags: [cursor, ai code review, code review, pull request review, developer productivity, engineering workflow]
-description: A practical guide to AI code review with Cursor. Learn how Harry Lee reduced pull request review time from 45 minutes to 10 minutes using command-based review rules, structured reports, and human-in-the-loop validation.
+description: A practical guide to AI code review with Cursor. Learn how I reduced pull request review time from 45 minutes to 10 minutes using command-based review rules, structured reports, and human-in-the-loop validation.
 ---
 
 # AI Code Review with Cursor: How I Reduced Review Time from 45 Minutes to 10 Minutes
