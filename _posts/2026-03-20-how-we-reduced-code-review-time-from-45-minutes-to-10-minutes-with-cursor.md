@@ -12,7 +12,7 @@ I’m Harry Lee.
 
 If you are searching for **how to use Cursor for code review**, **how to speed up pull request review**, or **whether AI code review actually works in a real engineering workflow**, this article is a practical answer.
 
-In day-to-day backend development, **Code Review (CR)** is one of the most important safeguards for code quality. But in a fast iteration cycle, CR can easily become **time-consuming, mentally exhausting, and highly dependent on the reviewer’s current state**.
+In day-to-day frontend development, **Code Review (CR)** is one of the most important safeguards for code quality. But in a fast iteration cycle, CR can easily become **time-consuming, mentally exhausting, and highly dependent on the reviewer’s current state**.
 
 One thing became increasingly clear to me in real engineering practice:
 
@@ -299,3 +299,5 @@ If someone asks, "Can AI replace pull request review?" my answer is no. But AI c
 If you want one sentence that summarizes the whole approach, it is this:
 
 **Let people own judgment. Let AI own repetition.**
+
+## 💬 Have thoughts? Leave a comment below!
