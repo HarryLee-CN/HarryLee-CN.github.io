@@ -42,6 +42,8 @@ In human terms, a skill is not just knowledge. It is knowledge plus method.
 
 For example, if someone knows how to play badminton, that does not mean they only understand the rules. It means they can react to the ball, choose the right movement, and execute the right action at the right moment.
 
+![753abf73a18c475fae4514a86a8df604~tplv-73owjymdk6-jj-mark-v1_0_0_0_0_5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YeS4reaWh-ekvue-pA==_q75.webp](../assets/img/2026-03-23-what-are-skills/753abf73a18c475fae4514a86a8df604%7Etplv-73owjymdk6-jj-mark-v1_0_0_0_0_5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YeS4reaWh-ekvue-pA%3D%3D_q75.webp)
+
 AI Skills work in a similar way.
 
 Instead of only giving the model a one-time instruction, a Skill gives the agent a more structured way to respond to a class of tasks, such as:
@@ -73,6 +75,8 @@ A normal prompt is usually:
 - typed directly into a chat box
 - repeated manually
 - easy to forget or change by accident
+
+![20260323111150_473_3.png](../assets/img/2026-03-23-what-are-skills/20260323111150_473_3.png)
 
 ### A Skill
 
@@ -138,6 +142,8 @@ So the most accurate summary is:
 ---
 
 ## 4. Why Do Skills Matter for AI Agents?
+
+![433ce61fe63e4eaea96212ecd0fdf494~tplv-73owjymdk6-jj-mark-v1_0_0_0_0_5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YeS4reaWh-ekvue-pA==_q75.webp](../assets/img/2026-03-23-what-are-skills/433ce61fe63e4eaea96212ecd0fdf494%7Etplv-73owjymdk6-jj-mark-v1_0_0_0_0_5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YeS4reaWh-ekvue-pA%3D%3D_q75.webp)
 
 Skills matter because they help AI move beyond "answering questions" and toward "executing workflows."
 
@@ -230,11 +236,15 @@ A Skill package may contain:
 
 Some platforms use different naming conventions, so do not assume every Skill must use the exact same filename.
 
+![f1e65513f1054c59a98a6c477efd9b28~tplv-73owjymdk6-jj-mark-v1_0_0_0_0_5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YeS4reaWh-ekvue-pA==_q75.webp](../assets/img/2026-03-23-what-are-skills/f1e65513f1054c59a98a6c477efd9b28%7Etplv-73owjymdk6-jj-mark-v1_0_0_0_0_5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YeS4reaWh-ekvue-pA%3D%3D_q75.webp)
+
 ### Step 3. Start your agent inside the project
 
 Open your terminal, enter the project directory, and start the agent tool you are using.
 
 If the system supports Skill discovery, the agent may scan the configured directory and make those Skills available automatically.
+
+![f2e5550fa5284c499b09422b3cbab8ae~tplv-73owjymdk6-jj-mark-v1_0_0_0_0_5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YeS4reaWh-ekvue-pA==_q75.webp](../assets/img/2026-03-23-what-are-skills/f2e5550fa5284c499b09422b3cbab8ae%7Etplv-73owjymdk6-jj-mark-v1_0_0_0_0_5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmF2YeS4reaWh-ekvue-pA%3D%3D_q75.webp)
 
 ### Step 4. Invoke the Skill through a real task
 
