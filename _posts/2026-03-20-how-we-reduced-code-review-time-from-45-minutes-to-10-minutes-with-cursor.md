@@ -31,6 +31,12 @@ This article documents one practical engineering attempt to improve Code Review 
 
 Before diving into the design, it is worth noting what the AI-generated output looked like in practice. The review report could summarize code changes, identify issues, classify risk, and provide merge recommendations before a human reviewer even started the final pass.
 
+![微信图片_20260323112141_477_3.jpg](../assets/img/2026-03-20-how-we-reduced-code-review-time-from-45-minutes-to-10-minutes-with-cursor/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260323112141_477_3.jpg)
+
+![微信图片_20260323112154_478_3.jpg](../assets/img/2026-03-20-how-we-reduced-code-review-time-from-45-minutes-to-10-minutes-with-cursor/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260323112154_478_3.jpg)
+
+![微信图片_20260323112212_479_3.jpg](../assets/img/2026-03-20-how-we-reduced-code-review-time-from-45-minutes-to-10-minutes-with-cursor/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260323112212_479_3.jpg)
+
 ## Table of Contents
 
 1. Why manual code review gets slower over time
@@ -101,6 +107,8 @@ The setup used in the article includes:
 
 Example Git MCP configuration:
 
+![微信图片_20260323112404_481_3.jpg](../assets/img/2026-03-20-how-we-reduced-code-review-time-from-45-minutes-to-10-minutes-with-cursor/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260323112404_481_3.jpg)
+
 ```json
 {
   "mcpServers": {
@@ -114,6 +122,8 @@ Example Git MCP configuration:
 
 ### Review Rules in `review.md`
 
+![微信图片_20260323112601_485_3.jpg](../assets/img/2026-03-20-how-we-reduced-code-review-time-from-45-minutes-to-10-minutes-with-cursor/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260323112601_485_3.jpg)
+
 All review rules are maintained in a single `review.md` file.
 
 The core idea is simple:
@@ -121,6 +131,8 @@ The core idea is simple:
 > Turn the review experience that lives in engineers' heads into rules that AI can execute consistently.
 
 ### How the AI Review Command Works
+
+![微信图片_20260323112610_486_3.jpg](../assets/img/2026-03-20-how-we-reduced-code-review-time-from-45-minutes-to-10-minutes-with-cursor/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260323112610_486_3.jpg)
 
 Once `review.md` is in place, team members only need to run one command to let Cursor perform an AI review according to the shared rules.
 
@@ -216,6 +228,10 @@ The final AI report includes:
 This report can be integrated directly into PR comments or CI workflows.
 
 ## 5. Real Results in Engineering Practice
+
+Example:
+
+![微信图片_20260323112620_487_3.jpg](../assets/img/2026-03-20-how-we-reduced-code-review-time-from-45-minutes-to-10-minutes-with-cursor/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260323112620_487_3.jpg)
 
 In real projects, the outcome was very direct:
 
